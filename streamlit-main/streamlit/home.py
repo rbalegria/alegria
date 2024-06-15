@@ -28,11 +28,11 @@ show_pages(
 hide_pages(["Thank you"])
 
 st.markdown("### FINAL REQUIREMENTS PRESENTED BY: ")
-st.header("CASTRO, ANGELO of BSIS 3B")
+st.header("ALEGRIA, RHEABLYN B. of BSIS 3B")
 st.image("./me.jpg")
 st.markdown("""<a href="/photographer/thinkstock-83786">Thinkstock</a> on <a href="/">Freeimages.com</a>""",unsafe_allow_html=True,)
 
-st.info("For more info. Contact [Angelo Casstro](https/facebook.com/gello.0112) on Fb")
+st.info("For more info. Contact [Rhealyn Barrientos Alegria](https://www.facebook.com/rhealyn.alegria.7) on Fb")
 st.info("👨‍🔧 Please take note when on streamlit.app the [Image Classification] pages are not working due to Memory Limitation of 'Free Tier' hosting of Streamlit") 
 st.markdown("---")
 
