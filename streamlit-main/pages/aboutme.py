@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("About Angelo 👦")
+st.title("Rhealyn Alegria")
 
 
 
@@ -16,7 +16,7 @@ for col, image_path in zip(cols, image_paths):
     col.image(image_path)
 
 
-st.header("👨‍🎓 Castro, Angelo L.")
+st.header("👨‍🎓 Rhealyn B. Alegria")
 
 st.markdown("""
 ##### 👨‍👦‍👦 Family Members
