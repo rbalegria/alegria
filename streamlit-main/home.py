@@ -3,13 +3,13 @@ from st_pages import Page, Section, show_pages, add_page_title, hide_pages
 
 add_page_title()
 show_pages(
-    [   
+    [
         Page("home.py", "ITEQMT Machine Learning Application Portfolio", "👨‍💻"),
         Section("Main Page", "📢"),
         Page("pages/aboutme.py", "👦🏻ABOUT ME", "1️⃣", in_section=True),
         Page("pages/description.py", "📜Streamlit App Description", "2️⃣", in_section=True),
         Page("pages/learnings.py", "🧠 What I Have Learned", "3️⃣", in_section=True),
-     
+
         Section("Sample Projects", "📂"),
         Page("pages/analyzer.py", "📝Basic Sentiment Analyzer", "1️⃣", in_section=True),
         Page("pages/classification.py", "💐Flower Classification", "2️⃣", in_section=True),
@@ -39,7 +39,7 @@ with st.expander("History, Purpose and Usage"):
     Machine learning, a subfield of artificial intelligence (AI), has evolved over decades. The concept dates back to the 1950s, when Arthur Samuel,
     an IBM engineer, created a checkers-playing program, pioneering the term "machine learning." In 1957, Frank Rosenblatt developed the perceptron, an
     early neural network model. During the 1960s and 1970s, research in AI and machine learning grew, but progress slowed due to limited computational power and data availability.
-               
+
     # Purpose of Machine Learning
     The primary purpose of machine learning is to develop algorithms and statistical models that enable computers to perform specific tasks without explicit instructions, relying instead on patterns and inference.
     Machine learning aims to automate and improve decision-making processes, enhance the accuracy of predictions, and uncover insights from large and complex datasets. Its objectives include:
@@ -49,7 +49,7 @@ with st.expander("History, Purpose and Usage"):
     * Pattern Recognition: Identifying patterns and relationships in data that are not apparent to human analysts.
     * Personalization: Tailoring services and products to individual users' preferences, such as recommendation systems in e-commerce and content platforms.
     * Optimization: Enhancing processes and systems, such as supply chain management, through data-driven decision-making.
-                
+
     # Usage of Machine Learning
     Machine learning is used across various industries and applications, including:
 
